@@ -1,0 +1,100 @@
+:root {
+    --body-gradient-bg-color-1: hsl(240, 10%, 19%);
+    --body-gradient-bg-color-2: hsl(240, 19%, 22%);
+    --decoration-bg-1: var(--main-color);
+    --decoration-bg-2: rgb(104 147 240);
+    --BLACK: rgba(0, 0, 0, 0.8);
+    --black-bg: rgb(235, 225, 225);
+    --glass-bg: hsla(0, 0%, 100%, 0.05);
+    --border-color-2: hsla(0, 0%, 100%, 0.07);
+    --border-color-1: hsla(0, 0%, 100%, 0.15);
+    --shadow: none;
+    --backdrop-filter-blur: blur(5px);
+}
+
+html::after,
+html::before {
+    content: "";
+    position: fixed;
+    z-index: -2;
+    border-radius: 50%;
+}
+
+html::before {
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: calc(50% - 650px);
+    background-image: linear-gradient(to right bottom, var(--decoration-bg-1), var(--black-bg));
+}
+
+html::after {
+    height: 150px;
+    width: 150px;
+    bottom: 20%;
+    right: calc(50% - 675px);
+    background-image: linear-gradient(to left bottom, var(--decoration-bg-2), var(--black-bg));
+}
+
+body {
+    background-image: linear-gradient(to right, var(--body-gradient-bg-color-1), var(--body-gradient-bg-color-2));
+    background-attachment: fixed;
+    padding: 40px 10px;
+}
+
+body.light {
+    --body-gradient-bg-color-1: rgb(242 242 242);
+    --body-gradient-bg-color-2: rgb(240 240 240);
+    --decoration-bg-1: var(--main-color);
+    --decoration-bg-2: rgb(104 147 240);
+    --BLACK: rgb(255 255 255 / 0%);
+    --black-bg: rgb(255 255 255);
+    --glass-bg: hsl(0deg 0% 0% / 7%);
+    --border-color-2: hsl(0deg 0% 100% / 55%);
+    --border-color-1: hsl(0deg 0% 100% / 46%);
+    --shadow: none;
+    --backdrop-filter-blur: blur(5px);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--BLACK);
+    opacity: .5;
+    z-index: -1;
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    background-color: var(--glass-bg);
+    border: 1px solid var(--border-color-2);
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.main-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: var(--backdrop-filter-blur);
+    backdrop-filter: var(--backdrop-filter-blur);
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.switcher-btn,
+.features-item,
+.preview_full-img,
+.color-switcher {
+    background-color: var(--glass-bg);
+    -webkit-backdrop-filter: var(--backdrop-filter-blur);
+    backdrop-filter: var(--backdrop-filter-blur);
+}

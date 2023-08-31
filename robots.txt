@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: 
+Disallow: /https://portfolio-blue-phi.vercel.app/

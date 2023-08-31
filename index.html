@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="I'am ahmed farag, Frontend Developer ,This is my portfolio" />
+    <meta name="keywords"
+        content="Profile, Portfolio, html, css, javascript, jquery, bootstrap, sass, responsive design, front-end" />
+    <meta name="theme-color" content="#1b1b22" />
+    <meta property="og:title" content="My Resume" />
+    <link rel="shortcut icon" href="img/new.PNG" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" class="js-glass-style" href="css/glass.css" disabled />
+</head>
+
+<body class="js-light-style">
+    <div class="main-wrapper">
+        <!-- Start Page Loading -->
+        <div class="page-loader">
+            <div class="page-loader-inner">
+                <div class="circle"></div>
+                Loading
+            </div>
+        </div>
+        <!-- End Page Loading -->
+
+        <!-- Start Color Switcher -->
+        <div class="color-switcher">
+            <div class="switcher-btn">
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="setting-option border-b">
+                <h3>Select Color</h3>
+                <div class="theme-buttons-conatiners">
+                    <span class="theme-buttons active" data-color="#673ab7" style="background: #673ab7"></span>
+                    <span class="theme-buttons" data-color="#e74c3c" style="background: #e74c3c"></span>
+                    <span class="theme-buttons" data-color="#009ec6" style="background: #009ec6"></span>
+                    <span class="theme-buttons" data-color="#27ae60" style="background: #27ae60"></span>
+                </div>
+            </div>
+
+            <div class="setting-option">
+                <h3>Glassmorphism</h3>
+                <div class="custom">
+                    <div class="custom-toggle glass-toggle">
+                        <div class="custom-btn"></div>
+                    </div>
+                    <div class="custom-text">Glass Effect</div>
+                </div>
+            </div>
+            <div class="setting-option">
+                <h3>light & Dark</h3>
+                <div class="custom light">
+                    <div class="custom-toggle light-toggle">
+                        <div class="custom-btn"></div>
+                    </div>
+                    <div class="custom-text">light Mode</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Color Switcher -->
+
+        <!-- Start Bg Animation Effect -->
+        <div class="bg-animation-effect"></div>
+        <!-- ../End Bg Animation Effect -->
+
+        <!-- Start Overlay Effect -->
+        <div class="overlay-effect">
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+        </div>
+        <!-- End Overlay Effect -->
+
+        <!-- Start Header -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" title="toggle" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <!-- Start Nav -->
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li>
+                                    <a href="#about" class="nav-item link-item">about</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio" class="nav-item link-item">portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#skills" class="nav-item link-item">skills</a>
+                                </li>
+                                <li>
+                                    <a href="#education" class="nav-item link-item">education</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="nav-item link-item">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- End Nav -->
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start About section -->
+        <section class="about-section active" id="about">
+            <div class="container">
+                <div class="row min-vh-100">
+                    <div class="about__content">
+                        <div class="profile">
+                            <img src="img/123333.jpg" alt="profile-img" />
+                            <p class="preview_img" title="Preview Full Img">
+                                <i class="fas fa-user"></i>
+                            </p>
+                        </div>
+
+                        <div class="about__content-desc">
+                            <h1 class="content_title">Hi, My Name is Eslam Raafat.</h1>
+                            <p class="content_desc">
+                                I'm a <span>Frontend developer,</span> living in Faysal - Giza,
+                                Egypt. I make web applications using <span>html</span>,
+                                <span>css</span>, <span>javascript</span> and
+                                <span>bootstrap and React</span>. Check my latest work on the
+                                <a href="#portfolio" class="link-item">portfolio page</a>. want
+                                talk about a project? you can get in touch with me
+                                <a href="#contact" class="link-item">here</a>.
+                            </p>
+
+                            <div class="about-btns">
+                                <!-- <a href="cv/Ahmed-Farag-Front-end_CV.pdf" class="btn" download>
+                                    Download Resume <i class="fas fa-download mx-3"></i>
+                                </a> -->
+                                <a href="#contact" class="link-item btn">
+                                    Hire Me <i class="fas fa-paper-plane mx-3"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ../End About section -->
+
+        <!-- Start Portfolio Section -->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row jc-center">
+                    <div class="section-title">
+                        <h2>recent works</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-filter">
+                        <button type="button" title="Show All Works" class="portfolio-filter-btn active"
+                            data-filter="all">
+                            all
+                        </button>
+                        <button type="button" title="Filter by Html-Css" class="portfolio-filter-btn"
+                            data-filter="html-css">
+                            html-css
+                        </button>
+                        <button type="button" title="Filter by Api" class="portfolio-filter-btn" data-filter="api">
+                            api
+                        </button>
+                        <button type="button" title="Filter by Bootstrap" class="portfolio-filter-btn"
+                            data-filter="bootstrap">
+                            bootstrap
+                        </button>
+                        <button type="button" title="Filter by React JS" class="portfolio-filter-btn"
+                            data-filter="react">
+                            React JS
+                        </button>
+                        <button type="button" title="Filter by challenges" class="portfolio-filter-btn"
+                            data-filter="challenges">
+                            challenges
+                        </button>
+                    </div>
+                    <div class="filter-status">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row portfolio-items"></div>
+            </div>
+        </section>
+        <!-- ../End Portfolio Section -->
+
+        <!-- start Education && Features Section -->
+        <section class="features-section sec-padding" id="skills">
+            <!-- start skills content -->
+            <div class="container">
+                <div class="skills_category">
+                    <div class="row skills_title">
+                        <div class="section-title">
+                            <h2>My skills</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="skills">
+                            <div class="skills-item">
+                                <span>html</span>
+                                <img src="img/icons/html-svgrepo-com.svg" alt="html" />
+                            </div>
+                            <div class="skills-item">
+                                <span>css</span>
+                                <img src="img/icons/css-svgrepo-com.svg" alt="css" />
+                            </div>
+                            <div class="skills-item">
+                                <span>javascript</span>
+                                <img src="img/icons/js-svgrepo-com.svg" alt="javascript" />
+                            </div>
+                            <div class="skills-item">
+                                <span>React</span>
+                                <img src="img/icons/reactjs-svgrepo-com.svg" alt="React" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Github</span>
+                                <img src="img/icons/github-svgrepo-com.svg" alt="github" />
+                            </div>
+                            <div class="skills-item">
+                                <span>git</span>
+                                <img src="img/icons/git-svgrepo-com.svg" alt="git" />
+                            </div>
+                            <div class="skills-item">
+                                <span>bootstrap</span>
+                                <img src="img/icons/bootstrap-4-logo-svgrepo-com.svg" alt="bootstrap" />
+                            </div>
+                            <div class="skills-item">
+                                <span>tailwind css</span>
+                                <img src="img/icons/tailwindcss-icon-svgrepo-com.svg" alt="tailwindcss" />
+                            </div>
+                            <div class="skills-item">
+                                <span>jquery</span>
+                                <img src="img/icons/jquery-icon.svg" alt="jquery" />
+                            </div>
+                            <div class="skills-item">
+                                <span>sass</span>
+                                <img src="img/icons/sass-svgrepo-com.svg" alt="sass" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Photoshop</span>
+                                <img src="img/icons/photoshop-svgrepo-com.svg" alt="Photoshop" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Adobe XD</span>
+                                <img src="img/icons/adobe-xd-1-logo-svgrepo-com.svg" alt="xd" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-120"></div>
+
+            <!-- start features part -->
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>My Features</h2>
+                    </div>
+                </div>
+                <!-- start features row -->
+                <div class="row">
+                    <div class="features-item">
+                        <i class="fas fa-code fa-2x"></i>
+                        <h3>Clean Code</h3>
+                        <p>
+                            I Will make code that is easy to understand and easy to change.
+                        </p>
+                    </div>
+
+                    <div class="features-item">
+                        <i class="far fa-star fa-2x"></i>
+                        <h3>High Quality</h3>
+                        <p>
+                            You will receive a website with high performance and high
+                            quality.
+                        </p>
+                    </div>
+
+                    <div class="features-item">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                        <h3>Responsive Deign</h3>
+                        <p>
+                            create a single site to support many devices, but need to
+                            consider content.
+                        </p>
+                    </div>
+                </div>
+                <!-- ../end features row  -->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>My Certificate</h2>
+                    </div>
+                </div>
+                <!-- start features row -->
+                <div class="row">
+                    <div class="features-item">
+                        <i class="fas fa-code fa-2x"></i>
+                        <h3>Certificate Route</h3>
+                        <p>
+                            <img src="img/certfcate/1.jpg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="features-item">
+                        <i class="far fa-star fa-2x"></i>
+                        <h3>Solo Learn</h3>
+                        <p>
+                         <img src="img/certfcate/2.jpg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="features-item">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                        <h3>Solo Learn Javascript</h3>
+                        <p>
+                         <img src="img/certfcate/3.jpg" alt="">
+                        </p>
+                    </div>
+                    <div class="features-item">
+                        <i class="fas fa-arrows-alt-h fa-2x"></i>
+                        <h3>Linkedin Css</h3>
+                        <p>
+                         <img src="img/certfcate/4.jpg" alt="">
+                        </p>
+                    </div>
+                    <div class="features-item">
+                        <i class="fas fa-bahai fa-2x"></i>
+                        <h3>Linkedin Javascript</h3>
+                        <p>
+                         <img src="img/certfcate/5.jpg" alt="">
+                        </p>
+                    </div>
+                    <div class="features-item">
+                        <i class="fas fa-business-time"></i>
+                        <h3>Solo Learn</h3>
+                        <p>
+                         <img src="img/certfcate/6.jpg" alt="">
+                        </p>
+                    </div>
+                    <div class="features-item">
+                        <i class="fas fa-chess-rook"></i>
+                        <h3>Solo Learn Java</h3>
+                        <p>
+                         <img src="img/certfcate/7.jpg" alt="">
+                        </p>
+                    </div>
+                    <div class="features-item">
+                        <i class="fas fa-cloud-sun-rain"></i>
+                        <h3>Ministry Of Communications and Information Technology</h3>
+                        <p>
+                         <img src="img/certfcate/8.jpg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <!-- ../end features row  -->
+            </div>
+        </section>
+        <!-- ../End Education && Features Section -->
+
+        <section class="education-section sec-padding" id="education">
+            <div class="row jc-center">
+                <div class="section-title">
+                    <h2>My Education</h2>
+                </div>
+            </div>
+            <!-- start education row -->
+            <div class="container">
+                <div class="row timeline">
+                    <div class="education_item col-xl-6 outset-lg-6">
+                        <div class="education_item-outer">
+                            <span class="education_item-date">Sep-2016 / Sep-2020</span>
+                            <h3 class="education_item-title">Faculty of Low
+                            </h3>
+                            <div class="education_item-desc">I was learning programming at this time, and I was not satisfied with this, and I took many courses in various places</div>
+                        </div>
+                    </div>
+                    <div class="education_item col-xl-6 offset-lg-6">
+                        <div class="education_item-outer">
+                            <span class="education_item-date">Nov-2021</span>
+                            <h3 class="education_item-title">Front-end -- React
+                            </h3>
+                            <div class="education_item-desc">I took a course Front-end and i learn some languages HTML5 and CSS3 and Javascript and React and Github and GIT and Bootstrap and tailwind Css and jquery and SASS and AdobeXD in Route</div>
+                        </div>
+                    </div>
+                    <div class="education_item col-xl-6 outset-lg-6">
+                        <div class="education_item-outer">
+                            <span class="education_item-date">Jul-2021</span>
+                            <h3 class="education_item-title">WorkShop Training front-end React Track
+                            </h3>
+                            <div class="education_item-desc">I also learned by myself from various websites and worked on some projects as well
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ../end education row -->
+
+        </section>
+
+        <!-- Start Contact Section -->
+        <section class="contact-section sec-padding min-vh-100" id="contact">
+            <div class="container">
+                <div class="row jc-center">
+                    <div class="section-title">
+                        <h2>Contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-content">
+                        <div class="contact-text">
+                            <p>
+                                If you want to contact with me about project or any question,
+                                Please enter a valid Email in form, So that I can reply to the
+                                email. <br />Thanks 🤩
+                            </p>
+                        </div>
+                        <div class="contact-info-item">
+                            <p>Email me on >> <span>eslamraafat736@gmail.com</span></p>
+                        </div>
+                        <div class="contact-info-item">
+                            <p class="social-links">
+                                <span>Find me on</span>
+                                <a href="https://www.linkedin.com/in/eslam-raafat-b465561b8/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a>
+                                        <a href="https://github.com/Eslamraafat1?tab=repositories" target="_blank"><i
+                                                class="fab fa-github"></i></a>
+                                <a href="https://www.facebook.com/eslam.raafat.77/" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/eslam.raafat.1998/?hl=en" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </p>
+                        </div>
+                        <div class="contact-info-item">
+                            Or contact me through my number <span style="font-size: x-large;">01069166033</span> 
+                        </div>
+                        <button type="button" class="btn toggle-contact-form-btn">
+                            send message
+                        </button>
+                    </div>
+
+                    <!-- Start Conatct Form -->
+                    <div class="contact-form">
+                        <div id="form_alerts" class="form_alerts"></div>
+
+                        <div class="contact-form-inner">
+                            <div class="contact-form-container">
+                                <button type="button" class="close-btn toggle-contact-form-btn"></button>
+
+                                <form name="form-submit" action="https://formspree.io/f/mgeqezeg" method="POST">
+                                    <div class="row">
+                                        <div class="input-group">
+                                            <input type="text" name="name" placeholder="Your Name"
+                                                class="input-control" />
+
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="email" name="email" placeholder="Your Email"
+                                                class="input-control" />
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" name="subject" placeholder="Subject"
+                                                class="input-control" />
+                                        </div>
+                                        <div class="input-group">
+                                            <textarea placeholder="Message" name="message"
+                                                class="input-control"></textarea>
+                                        </div>
+                                        <div class="input-group">
+                                            <button type="submit" class="btn btn-submit">
+                                                Send
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ../End Conatct Form -->
+                </div>
+            </div>
+        </section>
+        <!-- ../End Contact Section -->
+
+        <!-- Start Portfolio Item Details Popup -->
+        <div class="portfolio-popup">
+            <div class="pp-overlay"></div>
+            <div class="pp-inner">
+                <div class="pp-content">
+                    <div class="pp-header">
+                        <h2 class="pp-counter">7 of 7 ( <span>all</span> )</h2>
+                        <button type="button" title="close" class="close-btn pp-close-btn"></button>
+                        <div class="pp-thumbnail">
+                            <img src="img/portfolio/7.jpg" alt="pp-thumbnail" />
+                        </div>
+                        <h3>main title</h3>
+                    </div>
+                    <div class="pp-body"></div>
+                    <div class="pp-footer">
+                        <div class="pp-footer-left hidden">
+                            <button type="button" title="Prev Work" class="btn pp-prev-btn">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                            <h3>left title</h3>
+                            <img src="img/portfolio/1.jpg" alt="prev work thumbnail" />
+                        </div>
+                        <div class="pp-footer-right hidden">
+                            <button type="button" title="Next Work" class="btn pp-next-btn">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <h3>right title</h3>
+                            <img src="img/portfolio/2.jpg" alt="next work thumbnail" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ../End Portfolio Item Details Popup -->
+
+        <!-- popup for preview Img -->
+        <div class="container">
+            <div class="preview_full-img">
+                <img src="img/123333.jpg" alt="profile full img" />
+                <a class="close-btn close_profile" href="#"></a>
+            </div>
+        </div>
+        <!-- popup for preview Img -->
+
+        <!-- Start cursor -->
+        <div class="cursor_parent">
+            <div class="cursor1"></div>
+            <div class="cursor2"></div>
+        </div>
+        <!-- End cursor -->
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

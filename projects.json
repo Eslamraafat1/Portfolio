@@ -1,0 +1,222 @@
+[
+    {
+        "category": "react",
+        "img": "img/portfolio/elevin.PNG",
+        "title": "Cima website",
+        "description": "<p>This is Cima page For Show some Movies and Tv show and features for The Cima, It's Fully responsive Website.</p>",
+        "date_Created": "21 Dec 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "Bootstrap",
+        "live": "https://eslamraafat1.github.io/Cima/",
+        "code": "https://github.com/Eslamraafat1/Cima",
+        "link_Name": "Cima"
+    },
+    {
+        "category": "bootstrap",
+        "img": "img/portfolio/one.PNG",
+        "title": "Restaurant website",
+        "description": "<p>This is Restaurant Landing page For Show some products and features for The Restaurant, It's Fully responsive Website.</p>",
+        "date_Created": "21 Dec 2021",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "Bootstrap",
+        "live": "https://eslamraafat1.github.io/Bokharest/",
+        "code": "https://github.com/Eslamraafat1/Bokharest",
+        "link_Name": "BokharestFood"
+    },
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/two.PNG",
+        "title": "Coffee website",
+        "description": "<p>This is Coffee Page, It's Fully responsive website, website have some settings like change fontSize in all website and some features with animations.</p>",
+        "date_Created": "12 Sep 2022",
+        "technologies": "Html, Css, Javascript, Bootstrap, FormSpree",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Coffee/",
+        "code": "https://github.com/Eslamraafat1/Coffee",
+        "link_Name": "Coffee-website"
+    },
+    {
+        "category": "api",
+        "img": "img/portfolio/three.PNG",
+        "title": "Weather App",
+        "description": "<p>This is Weather App show weather for 3 days in the Place you Need, and it's Fully Responsive.</p>",
+        "date_Created": "9 Mar 2021",
+        "technologies": "Html, Css, API",
+        "role": "Api",
+        "live": "https://eslamraafat1.github.io/Weather-App/",
+        "code": "https://github.com/Eslamraafat1/Weather-App",
+        "link_Name": "Weather"
+    },
+    {
+        "category": "bootstrap",
+        "img": "img/portfolio/four.PNG",
+        "title": "Color website",
+        "description": "<p>This is Color gradient page For Show some Color gradient and features for The Color, It's Fully responsive Website.</p>",
+        "date_Created": "21 Dec 2022",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "Bootstrap",
+        "live": "https://eslamraafat1.github.io/Color-App/",
+        "code": "https://github.com/Eslamraafat1/Color-App",
+        "link_Name": "Color-Website"
+    },
+    {
+        "category": "challenges,api",
+        "img": "img/portfolio/five.PNG",
+        "title": "Best Color",
+        "description": "<p>This is Best Color page. This is challenge in frontend mentor website it is a rest countries api with color theme switcher</p>",
+        "date_Created": "6 Feb 2022",
+        "technologies": "Html, Css, Javascript, scss, API",
+        "role": "Challenges",
+        "live": "https://eslamraafat1.github.io/Best-Color/",
+        "code": "https://github.com/Eslamraafat1/Best-Color",
+        "link_Name": "Rest Countries"
+    },
+    {
+        "category": "challenges,api",
+        "img": "img/portfolio/se6.PNG",
+        "title": "instructor-Portal Website",
+        "description": "<p>This is a website for an education platform. The website contains 9 pages and is fully responsive.</p>",
+        "date_Created": "12 Oct 2022",
+        "technologies": "Html, Css, Javascript",
+        "role": "challenges",
+        "live": "https://eslamraafat1.github.io/instructor-Portal/",
+        "code": "https://github.com/Eslamraafat1/instructor-Portal",
+        "link_Name": "Construction"
+    },
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/seven.PNG",
+        "title": "RESTAURANTLY",
+        "description": "<p>This is Restaurant Landing page For Show some products and features for The Restaurant, It's Fully responsive Website.</p>",
+        "date_Created": "9 Mar 2023",
+        "technologies": "Html, Css",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/RESTAURANTLY/",
+        "code": "https://github.com/Eslamraafat1/RESTAURANTLY",
+        "link_Name": "RESTAURANTLY"
+    },
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/eghit.PNG",
+        "title": " landing page",
+        "description": "<p>This is a preview of the landing page for some diploma offers and registration. It is fully responsive for all devices I built it with only Html & Css and use javascript too</p>",
+        "date_Created": "6 Feb 2023",
+        "technologies": "Html, Css, Javascript",
+        "role": "html-css",
+        "live": "https://eslamraafat1.github.io/Landing-Page/",
+        "code": "https://github.com/Eslamraafat1/Landing-Page",
+        "link_Name": "landing page"
+    },
+    {
+        "category": "html-css,bootstrap",
+        "img": "img/portfolio/ten.PNG",
+        "title": "Festival Live",
+        "description": "<p>This is Cairo Festival City is a large-scale real estate development, It's maked by Bootstrap and It's Fully Responsive.</p>",
+        "date_Created": "24 Mar 2022",
+        "technologies": "Html, Css, Bootstrap 4",
+        "role": "Bootstrap",
+        "live": "https://eslamraafat1.github.io/Festival-Live/",
+        "code": "https://github.com/Eslamraafat1/Festival-Live",
+        "link_Name": "Festival Live"
+    },
+    {
+        "category": "react",
+        "img": "img/portfolio/twilve.PNG",
+        "title": "The-Clinic page",
+        "description": "<p>This is Hospital  Page For Agent, and Its fully Responsive.</p>",
+        "date_Created": "15 Feb 2022",
+        "technologies": "React, React-router, Styled-components",
+        "role": "React",
+        "live": "https://eslamraafat1.github.io/The-Clinic/",
+        "code": "https://github.com/Eslamraafat1/The-Clinic",
+        "link_Name": "The-Clinic"
+    },
+    {
+        "category": "html-css,challenges",
+        "img": "img/portfolio/therten.PNG",
+        "title": "Creative Design Page",
+        "description": "<p>This is my Creative Design Page of the challenge. This is challenge in frontend mentor website it is a Creative Design Page Landing page and It's fully responsive.</p>",
+        "date_Created": "22 Jan 2022",
+        "technologies": "Html, Css, Javascript",
+        "role": "Challenges",
+        "live": "https://eslamraafat1.github.io/Creative-Design/",
+        "code": "https://github.com/Eslamraafat1/Creative-Design",
+        "link_Name": "Creative Design"
+    },
+    {
+        "category": "html-css,bootstrap",
+        "img": "img/portfolio/forten.PNG",
+        "title": "Branding Agency Page",
+        "description": "<p>This is simple profile Branding. This profile for training Branding It's fully responsive.</p>",
+        "date_Created": "12 Jun 2022",
+        "technologies": "Html, Css, Javascript",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Branding-Agency/",
+        "code": "https://github.com/Eslamraafat1/Branding-Agency",
+        "link_Name": "Branding Agency Page"
+    },
+    {
+        "category": "html-css,bootstrap",
+        "img": "img/portfolio/fiveten.PNG",
+        "title": "Law web site",
+        "description": "<p>This is Law web site We solve your problems when times happen with effort and pain. This web site training Law It's fully responsive.</p>",
+        "date_Created": "12 Jun 2023",
+        "technologies": "Html, Css, Javascript",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Law/",
+        "code": "https://github.com/Eslamraafat1/Law",
+        "link_Name": "Law web site"
+    }
+    ,
+    {
+        "category": "challenges,api",
+        "img": "img/portfolio/sexten.PNG",
+        "title": "Customer Portal web site",
+        "description": "<p>This is Customer web site To see your grades and schedule your day's assignments in the course. This web site training Customer It's fully responsive.</p>",
+        "date_Created": "12 Jun 2023",
+        "technologies": "Html, Css, Javascript, scss, API",
+        "role": "Api",
+        "live": "https://harvestcollege.co.uk/customerPortal",
+        "code": "https://harvestcollege.co.uk/customerPortal",
+        "link_Name": "Customer Portal web site"
+    }
+    ,
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/ninten.PNG",
+        "title": "Mobile App web site",
+        "description": "<p>This is mobile app web site To see your live stream . This web site training mobile app It's fully responsive.</p>",
+        "date_Created": "22 Jun 2023",
+        "technologies": "Html, Css, Javascript, scss, API",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Mobile-App/",
+        "code": "https://github.com/Eslamraafat1/Mobile-App",
+        "link_Name": "Mobile App web site"
+    }
+    ,
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/eaten.PNG",
+        "title": "Photos web site",
+        "description": "<p>This is Photos web site To see your more photo Creative . This web site show photos It's fully responsive.</p>",
+        "date_Created": "22 Jun 2023",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Creative-Photo/",
+        "code": "https://github.com/Eslamraafat1/Creative-Photo",
+        "link_Name": "Photos web site"
+    }
+    ,
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/twinte.PNG",
+        "title": "Craft-Awesome-Web web site",
+        "description": "<p>This is Craft-Awesome-Web web site To see your more photo Creative . This web site show Craft-Awesome-Web It's fully responsive.</p>",
+        "date_Created": "22 Jun 2023",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Craft-Awesome-Web/",
+        "code": "https://github.com/Eslamraafat1/Craft-Awesome-Web",
+        "link_Name": "Craft-Awesome-Web web site"
+    }
+]
