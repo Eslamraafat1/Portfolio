@@ -12,6 +12,19 @@
         "link_Name": "Cima"
     },
     {
+        "category": "react",
+        "img": "img/portfolio/Eslamm.PNG",
+        "title": "E-commerce web site",
+        "description": "<p>This is E-commerce web site This is a site for shopping for many things such as fashion and electronic devices . This web site E-commerce fully responsive.</p>",
+        "date_Created": "22 Oct 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "Api",
+        "live": "https://eslamraafat1.github.io/E-commerce/",
+        "code": "https://github.com/Eslamraafat1/E-commerce",
+        "link_Name": "E-commerce Web site"
+    }
+    ,
+    {
         "category": "bootstrap",
         "img": "img/portfolio/one.PNG",
         "title": "Restaurant website",
@@ -219,4 +232,125 @@
         "code": "https://github.com/Eslamraafat1/Craft-Awesome-Web",
         "link_Name": "Craft-Awesome-Web web site"
     }
+    ,
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/XO.PNG",
+        "title": "X - O Game web site",
+        "description": "<p>This is X - O Game  . This web site X - O web site fully responsive.</p>",
+        "date_Created": "2 Nov 2023",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/XO_Game/",
+        "code": "https://github.com/Eslamraafat1/XO_Game",
+        "link_Name": "X - O Game web site"
+    }
+    ,
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/Calc.PNG",
+        "title": "Calculator web site",
+        "description": "<p>This is Calculator  . This web site Calculator web site fully responsive.</p>",
+        "date_Created": "20 Oct 2023",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Calculator/",
+        "code": "https://github.com/Eslamraafat1/Calculator",
+        "link_Name": "Calculator web site"
+    }
+    ,
+    {
+        "category": "html-css bootstrap",
+        "img": "img/portfolio/Ai.PNG",
+        "title": "Ai web site",
+        "description": "<p>This is Ai web site. This web site Ai web site fully responsive.</p>",
+        "date_Created": "25 Oct 2023",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Ai/",
+        "code": "https://github.com/Eslamraafat1/Ai",
+        "link_Name": "Ai web site"
+    }
+    
+    ,
+    {
+        "category": "react",
+        "img": "img/portfolio/movie.PNG",
+        "title": "Movies web site",
+        "description": "<p>This is Movies web site. This web site Movies web site fully responsive.</p>",
+        "date_Created": "28 Oct 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "React",
+        "live": "https://654528cd053cee2be22af925--extraordinary-moonbeam-c50d99.netlify.app/",
+        "code": "https://github.com/Eslamraafat1/Movies",
+        "link_Name": "Movies web site"
+    }
+    ,
+    {
+        "category": "api",
+        "img": "img/portfolio/cairo.PNG",
+        "title": "Prayer-time web site",
+        "description": "<p>This is Prayer-time web site. This web site Prayer-time web site fully responsive.</p>",
+        "date_Created": "28 Seb 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "Api",
+        "live": "https://65452b9c868717229dab4a94--glittery-dango-a5ae2c.netlify.app/",
+        "code": "https://github.com/Eslamraafat1/Prayer-time",
+        "link_Name": "Prayer-time web site"
+    }
+    
+    ,
+    {
+        "category": "html-css,challenges",
+        "img": "img/portfolio/todo.PNG",
+        "title": "Todo list app web site",
+        "description": "<p>This is Todo list app web site. This web site Todo list app web site fully responsive.</p>",
+        "date_Created": "5 Seb 2023",
+        "technologies": "Html, Css, Javascript, Jquery, Bootstrap",
+        "role": "html-css-bootstrap",
+        "live": "https://eslamraafat1.github.io/Todo-app/",
+        "code": "https://github.com/Eslamraafat1/Todo-app",
+        "link_Name": "Todo list app web site"
+    }
+    ,
+    {
+        "category": "api",
+        "img": "img/portfolio/you.PNG",
+        "title": "You tube web site",
+        "description": "<p>This is You tube web site. This web site You tube web site fully responsive.</p>",
+        "date_Created": "15 Seb 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "Api",
+        "live": "https://6545752f7c28b70a8b3bbfcf--fastidious-gaufre-aaeb20.netlify.app/",
+        "code": "https://github.com/Eslamraafat1/You-tube",
+        "link_Name": "You tube web site"
+    }
+    ,
+    {
+        "category": "react",
+        "img": "img/portfolio/Github.PNG",
+        "title": "GitHub Clone web site",
+        "description": "<p>This is GitHub Clone web site. This web site GitHub Clone web site fully responsive.</p>",
+        "date_Created": "20 Seb 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "React",
+        "live": "https://eslamraafat1.github.io/GitHub-Clone/",
+        "code": "https://github.com/Eslamraafat1/GitHub-Clone",
+        "link_Name": "GitHub Clone web site"
+    }
+    ,
+    {
+        "category": "react",
+        "img": "img/portfolio/Drama.PNG",
+        "title": "Drama Movies web site",
+        "description": "<p>This is Drama Movies web site. This web site Drama Movies web site fully responsive.</p>",
+        "date_Created": "20 Jun 2023",
+        "technologies": "React, React-router, Styled-components",
+        "role": "React",
+        "live": "https://splendorous-snickerdoodle-50ec5e.netlify.app/",
+        "code": "https://github.com/Eslamraafat1/Drama-Movies",
+        "link_Name": "Drama Movies web site"
+    }
+    
+    
 ]
